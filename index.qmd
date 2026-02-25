@@ -1,0 +1,10 @@
+---
+title: "Gapminder Project Home"
+---
+
+The Gapminder Dataset tracks varying historical trends in health and wealth measures for 142 countries between the years of 1952 and 2007.
+
+### Analysis Pages:
+- [Life Expectancy and GDP per Capita](life-gdp.qmd)
+- [Life Expectancy and Population](life-population.qmd)
+- [Country Analysis](country.qmd)

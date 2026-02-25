@@ -1,0 +1,15 @@
+---
+title: "Life Expectancy and GDP per Capita"
+---
+This analysis will explore the correlation between a country's life expectancy and their GDP per Capita. 
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('gapminder.csv')
+plt.scatter(df['gdp_per_capita'], df['life_expectancy'], alpha=0.5)
+plt.title("GDP vs Life Expectancy")
+plt.xlabel("GDP per Capita")
+plt.ylabel("Life Expectancy")
+plt.show()

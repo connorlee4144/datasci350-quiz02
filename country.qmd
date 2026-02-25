@@ -1,0 +1,16 @@
+---
+title: "Country Analysis: Mexico"
+---
+Tracking changes in life expectancy, GDP per Capita, and population size for Mexico over time
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('gapminder.csv')
+mexico = df[df['country'] == 'Mexico']
+
+plt.plot(mexico['year'], mexico['life_expectancy'], label="Life Expectancy")
+plt.plot(mexico['year'], mexico['gdp_per_capita'] / 100, label="GDP/100") # Scaled for visibility
+plt.legend()
+plt.show()
