@@ -14,3 +14,4 @@ plt.plot(mexico['year'], mexico['life_expectancy'], label="Life Expectancy")
 plt.plot(mexico['year'], mexico['gdp_per_capita'] / 100, label="GDP/100") # Scaled for visibility
 plt.legend()
 plt.show()
+```

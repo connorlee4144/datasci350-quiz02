@@ -13,3 +13,4 @@ plt.title("GDP vs Life Expectancy")
 plt.xlabel("GDP per Capita")
 plt.ylabel("Life Expectancy")
 plt.show()
+```
